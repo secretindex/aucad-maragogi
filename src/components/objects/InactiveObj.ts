@@ -190,6 +190,11 @@ const inactiveDocuments: InactivesInt = {
     required: true,
     present: false,
   },
+  beneficioInss: {
+    name: "Declaração de Benefício Previdenciário",
+    required: true,
+    present: false,
+  },
   posse: {
     name: "Portaria de Posse (cargo efetivo)",
     required: true,

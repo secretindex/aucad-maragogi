@@ -21,17 +21,27 @@ type PisPensionerInvalid = "pis/18/n"
 type PisPensionerValid = "pis/18/s" | "pis/nr"
 
 type TitleInvalid = "titel/n" | "titel/m"
+type CNHInvalid = "cnh/nr" | "cnh/n" | "cnh/ce" | "cnh/cnh" | "cnh/p" | "cnh/s"
 
 type ReservistaValid = "res/s" | "res/n" | "res/nr"
 
 interface ActivesDocuments {
-  foto: boolean
   id: IDInvalid | IDValid
   residencia: ResidenceInvalid | ResidenceValid
   estadoCivil: CivilStatusInvalid | CivilStatusValid
+  registroProfissional: boolean
+  declaracaoSuperior: boolean
+  irpf: boolean
+  criminalFederal: boolean
+  criminalEstadual: boolean
+  negativaEleitoral: boolean
+  acumuloCargo: boolean
+  beneficioInss: boolean
+  escolaridade: boolean
   pis: boolean
   cnis: boolean
   posse: boolean
+  cnh: CNHInvalid
   tituloEleitor: boolean
   reservista: ReservistaValid
   comprovanteEstado: boolean

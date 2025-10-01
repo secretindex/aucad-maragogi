@@ -157,6 +157,12 @@ export interface InactivesInt {
     present: boolean
     optionList?: NestedOption[]
   }
+  beneficioInss: {
+    name: string
+    required: boolean
+    present: boolean
+    optionList?: NestedOption[]
+  }
   portariaConcessao: {
     name: string
     required: boolean
@@ -216,6 +222,54 @@ export interface ActivesDocs {
     optionList?: NestedOption[]
   }
   registroProfissional: {
+    name: string
+    required: boolean
+    present: boolean
+    optionList?: NestedOption[]
+  }
+  declaracaoSuperior: {
+    name: string
+    required: boolean
+    present: boolean
+    optionList?: NestedOption[]
+  }
+  irpf: {
+    name: string
+    required: boolean
+    present: boolean
+    optionList?: NestedOption[]
+  }
+  criminalFederal: {
+    name: string
+    required: boolean
+    present: boolean
+    optionList?: NestedOption[]
+  }
+  cnh: {
+    name: string
+    required: boolean
+    present: boolean
+    optionList?: NestedOption[]
+  }
+  criminalEstadual: {
+    name: string
+    required: boolean
+    present: boolean
+    optionList?: NestedOption[]
+  }
+  negativaEleitoral: {
+    name: string
+    required: boolean
+    present: boolean
+    optionList?: NestedOption[]
+  }
+  acumuloCargo: {
+    name: string
+    required: boolean
+    present: boolean
+    optionList?: NestedOption[]
+  }
+  beneficioInss: {
     name: string
     required: boolean
     present: boolean

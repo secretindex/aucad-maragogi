@@ -167,22 +167,57 @@ const activesDocument: ActivesDocs = {
         children: [
           {
             label: "enviado",
-            value: "res/s"
+            value: "res/s",
           },
           {
             label: "não enviado",
-            value: "res/n"
-          }
-        ]
+            value: "res/n",
+          },
+        ],
       },
       {
         label: "não requerido",
-        value: "res/nr"
-      }
-    ]
+        value: "res/nr",
+      },
+    ],
   },
   registroProfissional: {
     name: "Comprovante de Registro Profissional",
+    required: true,
+    present: false,
+  },
+  declaracaoSuperior: {
+    name: "Declaração de Local, Hora e Função",
+    required: true,
+    present: false,
+  },
+  irpf: {
+    name: "Declaração de IRPF ou Isenção",
+    required: true,
+    present: false,
+  },
+  criminalEstadual: {
+    name: "C. Negativa Criminal e Cível da Justiça Estadual",
+    required: true,
+    present: false,
+  },
+  criminalFederal: {
+    name: "C. Negativa Criminal e Cível da Justiça Federal",
+    required: true,
+    present: false,
+  },
+  negativaEleitoral: {
+    name: "C. Negativa da Jus. Eleitoral",
+    required: true,
+    present: false,
+  },
+  acumuloCargo: {
+    name: "Dec. de Não Acúmulo de Cargo",
+    required: true,
+    present: false,
+  },
+  beneficioInss: {
+    name: "Declaração de Benefício Previdenciário",
     required: true,
     present: false,
   },
@@ -197,9 +232,42 @@ const activesDocument: ActivesDocs = {
     present: false,
   },
   escolaridade: {
-    name: "Comprovante de Escolaridade",
+    name: "Comprovante de Escolaridade Compatível",
     required: true,
     present: false,
+  },
+  cnh: {
+    name: "Motoristas",
+    required: true,
+    present: true,
+    optionList: [
+      {
+        label: "presente",
+        value: "cnh/s",
+        children: [
+          {
+            label: "cnh e dec. curso especializado",
+            value: "cnh/p",
+          },
+          {
+            label: "só cnh",
+            value: "cnh/cnh",
+          },
+          {
+            label: "só dec. curso especializado",
+            value: "cnh/ce",
+          },
+        ],
+      },
+      {
+        label: "não",
+        value: "cnh/n"
+      },
+      {
+        label: "não requerido",
+        value: "cnh/nr"
+      }
+    ],
   },
   depId: {
     name: "Dependentes",
@@ -225,13 +293,13 @@ const activesDocument: ActivesDocs = {
                     children: [
                       {
                         label: "comprovado",
-                        value: "inv/sc"
+                        value: "inv/sc",
                       },
                       {
                         label: "não comprovado",
-                        value: "inv/nc"
+                        value: "inv/nc",
                       },
-                    ]
+                    ],
                   },
                   {
                     label: "Curatela/Guarda",

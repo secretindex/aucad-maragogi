@@ -1,4 +1,4 @@
-const upperText: string = `De acordo com o disposto no Decreto 034/2025, seu cadastro foi recusado pela ausência da(s) seguinte(s) imagem(ns):
+const upperText: string = `Art. 2º. Os servidores públicos ativos, inativos e pensionistas deverão apresentar, obrigatoriamente, os seguintes documentos originais:
 `
 const bottomText: string = `
 Assine as declarações e termos abaixo a punho. Também aceitamos assinatura digital com gov.br.
