@@ -181,6 +181,11 @@ const activesDocument: ActivesDocs = {
       }
     ]
   },
+  registroProfissional: {
+    name: "Comprovante de Registro Profissional",
+    required: true,
+    present: false,
+  },
   posse: {
     name: "Portaria de Posse",
     required: true,

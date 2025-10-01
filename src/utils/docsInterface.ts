@@ -215,6 +215,12 @@ export interface ActivesDocs {
     present: boolean
     optionList?: NestedOption[]
   }
+  registroProfissional: {
+    name: string
+    required: boolean
+    present: boolean
+    optionList?: NestedOption[]
+  }
   posse: {
     name: string
     required: boolean
