@@ -233,26 +233,6 @@ const inactiveDocuments: InactivesInt = {
                     ],
                   },
                   {
-                    label: "Curatela/Guarda",
-                    value: "cg/u",
-                    children: [
-                      {
-                        label: "Termo de Guarda/Curatela",
-                        value: "tgc/u",
-                        children: [
-                          {
-                            label: "sim",
-                            value: "tgc/s",
-                          },
-                          {
-                            label: "não",
-                            value: "tgc/n",
-                          },
-                        ],
-                      },
-                    ],
-                  },
-                  {
                     label: "Filho +18",
                     value: "dp/21",
                   },

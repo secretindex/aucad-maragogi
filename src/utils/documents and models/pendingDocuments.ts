@@ -12,7 +12,6 @@ export type InvalidDocuments = {
   "inv/nc": string
   "dsvu/n": string
   "deco/n": string
-  "tgc/n": string
   "dp/21": string
   "dep/id/n": string
   "dep/id/10": string
@@ -47,7 +46,6 @@ Solteira - Certidão de nascimento`,
   "cnh/ce": "Carteira Nacional de Habilitação (CNH), se motorista",
   "cnh/cnh": "Declaração sobre curso especializado para condutor, se motorista",
   "deco/n": "Enviar declaração de dependência econômica do dependente DEP",
-  "tgc/n": "Enviar termo de guarda do dependente DEP",
   "pinv/cld": "Aposentadoria por Invalidez - enviar laudo médico atualizado (emitido a partir de agosto/2025)",
   "pinv/sl":
     "Aposentado por Invalidez, enviar laudo médico atualizado (emitido a partir de agosto/2025), o qual será retido no momento do censo",
