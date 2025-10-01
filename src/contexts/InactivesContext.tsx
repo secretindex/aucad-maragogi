@@ -17,6 +17,7 @@ export const inactivesDefault: InactivesDocuments = {
   posse: false,
   tituloEleitor: false,
   portariaConcessao: false,
+  beneficioInss: false,
   depId: "dep/n",
 }
 

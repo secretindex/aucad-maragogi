@@ -54,6 +54,7 @@ export interface InactivesDocuments {
   estadoCivil: CivilStatusInvalid | CivilStatusValid
   invalidez: InvalidezStatus
   pis: boolean
+  beneficioInss: boolean
   posse: boolean
   tituloEleitor: boolean
   portariaConcessao: boolean
@@ -67,6 +68,7 @@ export interface PensionerDocuments {
   id: IDInvalid | IDValid
   idExServidor: "idsf/n" | "idsf/s"
   portariaConcessao: boolean
+  beneficioInss: boolean
   residencia: ResidenceInvalid | ResidenceValid
   pis: PisPensionerInvalid | PisPensionerValid
   estadoCivil: CivilStatusInvalid | CivilStatusValid

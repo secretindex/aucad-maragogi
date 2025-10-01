@@ -12,6 +12,7 @@ export const pensionerContextDocs: PensionerDocuments = {
   posseExServidor: false,
   certObito: false,
   portariaConcessao: false,
+  beneficioInss: false,
   id: "id/n",
   idExServidor: "idsf/n",
   residencia: "cr/n",
