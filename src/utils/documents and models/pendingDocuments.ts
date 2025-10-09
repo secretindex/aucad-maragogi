@@ -73,6 +73,7 @@ export type ActivesStandardType = {
   tituloEleitor: string
   registroProfissional: string
   escolaridade: string
+  ctps: string
   reservista: string
   uniao: string
   declaracaoSuperior: string
@@ -92,6 +93,7 @@ const activesStandard: ActivesStandardType = {
   declaracaoSuperior:
     "Declaração assinada pelo superior imediato que informe local de trabalho, função e horário de expediente",
   irpf: "Declaração do imposto de renda exercício 2025 ou declaração de isento",
+  ctps: "Carteira de Trabalho e Previdência Social",
   criminalFederal: "Certidão Negativa Criminal e Cível da Justiça Federal",
   criminalEstadual: "Certidão Negativa Criminal e Cível da Justiça Estadual",
   negativaEleitoral: "Certidão Negativa da Justiça Eleitoral",

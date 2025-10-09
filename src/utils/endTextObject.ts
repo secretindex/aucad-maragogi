@@ -32,6 +32,7 @@ interface ActivesDocuments {
   registroProfissional: boolean
   declaracaoSuperior: boolean
   irpf: boolean
+  ctps: boolean
   criminalFederal: boolean
   criminalEstadual: boolean
   negativaEleitoral: boolean

@@ -151,6 +151,11 @@ const activesDocument: ActivesDocs = {
     required: true,
     present: false,
   },
+  ctps: {
+    name: "Carteira de Trabalho",
+    required: true,
+    present: false,
+  },
   tituloEleitor: {
     name: "Título de Eleitor",
     required: true,

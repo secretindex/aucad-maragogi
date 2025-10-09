@@ -16,6 +16,7 @@ export const documentsContext: FinalTextDocuments = {
   escolaridade: false,
   acumuloCargo: false,
   beneficioInss: false,
+  ctps: false,
   cnis: false,
   posse: false,
   tituloEleitor: false,

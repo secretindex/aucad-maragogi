@@ -21,6 +21,7 @@ const CheckboxContextProvider: React.FC<ProviderProps> = ({ children }) => {
     pis: false,
     residencia: false,
     uniao: false,
+    ctps: false,
     casamento: false,
     nascimento: false,
     contracheque: false,

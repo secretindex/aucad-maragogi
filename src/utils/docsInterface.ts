@@ -5,6 +5,7 @@ export interface RequiredDocs {
   pis: boolean
   residencia: boolean
   uniao: boolean
+  ctps: boolean
   casamento: boolean
   nascimento: boolean
   contracheque: boolean
@@ -222,6 +223,12 @@ export interface ActivesDocs {
     optionList?: NestedOption[]
   }
   registroProfissional: {
+    name: string
+    required: boolean
+    present: boolean
+    optionList?: NestedOption[]
+  }
+  ctps: {
     name: string
     required: boolean
     present: boolean
