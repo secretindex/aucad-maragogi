@@ -18,7 +18,7 @@ export const pensionerContextDocs: PensionerDocuments = {
   residencia: "cr/n",
   tituloEleitor: "titel/m",
   estadoCivil: "cns/nr",
-  pis: "pis/nr",
+  pis: false,
 }
 
 export interface PensionerContentType {

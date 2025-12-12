@@ -37,6 +37,7 @@ const invalidPensioner: InvalidPensioner = {
 export type PensionerCheck = {
   posseExServidor: boolean
   certObito: boolean
+  pis: boolean
   portariaConcessao: boolean
   beneficioInss: string
 }
@@ -44,12 +45,14 @@ export type PensionerCheck = {
 export type StandardPensioner = {
   posseExServidor: string
   certObito: string
+  pis: string
   portariaConcessao: string
   beneficioInss: string
 }
 
 const standardPensioner: StandardPensioner = {
   posseExServidor: "Portaria de posse do ex-servidor (a) falecido(a)",
+  pis: "NIT/PIS/PASEP/NIS ou documento oficial que contenha a informação",
   certObito: "Certidão de Óbito do ex-servidor(a) falecido(a)",
   portariaConcessao: "Portaria de concessão de benefício de pensão",
   beneficioInss: "Declaração de Benefício Previdenciário emitida a partir do site meuinss.gov.br"

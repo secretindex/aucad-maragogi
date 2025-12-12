@@ -109,6 +109,12 @@ export interface PensionerDocs {
     present: boolean
     optionList?: NestedOption[]
   }
+  beneficioInss: {
+    name: string
+    required: boolean
+    present: boolean
+    optionList?: NestedOption[]
+  }
   tituloEleitor: {
     name: string
     required: boolean

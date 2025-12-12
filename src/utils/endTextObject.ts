@@ -17,9 +17,6 @@ type InvalidezStatus = "pinv/n" | "pinv/s" | "pinv/cl" | "pinv/cla" | "pinv/cld"
 type DependentTypeInvalid = "deco/n" | "dp/n" | "tgc/n" | "dp/21" | "dep/id/n" | "dep/id/10" | "cnd/n"
 type DependentTypeValid = "deco/s" | "dp/s" | "tgc/s" | "cnd/s" | "dep/n"
 
-type PisPensionerInvalid = "pis/18/n"
-type PisPensionerValid = "pis/18/s" | "pis/nr"
-
 type TitleInvalid = "titel/n" | "titel/m"
 type CNHInvalid = "cnh/nr" | "cnh/n" | "cnh/ce" | "cnh/cnh" | "cnh/p" | "cnh/s"
 
@@ -71,7 +68,7 @@ export interface PensionerDocuments {
   portariaConcessao: boolean
   beneficioInss: boolean
   residencia: ResidenceInvalid | ResidenceValid
-  pis: PisPensionerInvalid | PisPensionerValid
+  pis: boolean
   estadoCivil: CivilStatusInvalid | CivilStatusValid
 }
 

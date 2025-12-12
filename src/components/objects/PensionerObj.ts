@@ -166,6 +166,11 @@ const pensionerObj: PensionerDocs = {
     required: true,
     present: false,
   },
+  beneficioInss: {
+    name: "Declaração de Benefício INSS",
+    required: true,
+    present: false
+  },
   portariaConcessao: {
     name: "Portaria de Concessão de Benefício de Pensão",
     required: false,
